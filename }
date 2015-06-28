@@ -1,0 +1,26 @@
+<div id="mobile-menu" class="menu-main">
+  <div class="menu-trigger">
+    <div class="row">
+      <div class="col-xs-6 col-lg-6">
+        <a href="" id="menu-mobile-btn" class="btn-menu-mobile" ng-click="">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="col-xs-6 col-lg-6 text-right">
+        <a href="" class="btn-menu-mobile">
+          <i class="fa fa-calendar"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-comment"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <nav class="menu-wrapper">
+    <div class="menu-scroller">
+      <ul class="menu">
+        <li>{{hola}}</li>
+      </ul>
+    </div>
+  </nav>
+</div>
